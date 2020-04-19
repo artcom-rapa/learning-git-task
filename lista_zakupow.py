@@ -5,5 +5,10 @@ shopping_dict = {
     "warzywniak" : ["marchew", "seler"]
 }
 shopping_dict["piekarnia"].append("pączek")
+shopping_dict["warzywniak"].append("rukola")
 
-print(shopping_dict)
+
+
+for sklep, produkt in shopping_dict.items():
+     
+    print("Idę do {}, kupuję tu następujące rzeczy: {}".format(sklep.capitalize(), produkt))
