@@ -6,6 +6,7 @@ shopping_dict = {
 }
 shopping_dict["piekarnia"].append("pączek")
 shopping_dict["warzywniak"].append("rukola")
+shopping_dict["apteka"] = ["apap", "tussipec"]
 
 separator = ", "
 
