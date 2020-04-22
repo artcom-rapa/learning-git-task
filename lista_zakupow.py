@@ -17,6 +17,7 @@ for sklep, produkt in shopping_dict.items():
 
 piekarnia_count = len(shopping_dict["piekarnia"])
 warzywniak_count = len(shopping_dict["warzywniak"])
+apteka_count = len(shopping_dict["apteka"])
 
-suma = piekarnia_count + warzywniak_count
+suma = piekarnia_count + warzywniak_count + apteka_count
 print("W sumie kupuję {} produktów.".format(suma))
